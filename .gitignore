@@ -1,9 +1,26 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
+.project
+.classpath
+.settings
+.cvsignore
+test-output
+**/target
+**/bin
+**log
+**/etc
+**.orig
+#bamboo creates this file for own purposes
+build-number.txt
 release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+**pom.xml.*
+*.lck
+*.log
+**.bak
+**/rebel.xml
+#IntelliJ IDEA settinds
+atlassian-ide-plugin.xml
+**.idea
+**.iml
+**.iws
+**.ipr
+**/*-db.properties
+.DS_Store
